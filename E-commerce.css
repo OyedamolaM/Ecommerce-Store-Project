@@ -1,0 +1,81 @@
+body{
+    position: relative;
+}
+
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.nav1, nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-li ul a, .nav-2 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.nav-2 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-li ul li, .nav-2 ul li{
+    float: left;
+    display: block;
+    width: auto;
+    margin: 5px;
+}
+.search{
+    border-radius: 0.5rem;
+    width: 200px;
+}
+
+.nav-2{
+    background-color: black;
+}
+.section{
+    width: 98%;
+    height: auto;
+    /* background-color: aliceblue; */
+    margin: auto;
+}
+.section-head{
+    text-align: center;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50px;
+}
+button{
+    background-color: white;
+    color: black;
+}
+.product div{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.section-4{
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.browse-grid{
+    width: 90%;
+    background-color: aliceblue;
+    height: 300px;
+    margin: auto;
+}
